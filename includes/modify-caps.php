@@ -18,8 +18,7 @@ function rum_modify_theme_blvd_module_caps( $module_caps ) {
 	$module_caps['sliders'] = 'edit_pages';
 
 	// Theme Options
-//	TODO - further research required; Theme Options is displayed but doesn't save; "Cheatin’ uh?"
-//    $module_caps['options'] = 'edit_pages';
+        $module_caps['options'] = 'edit_pages';
 
 	// Widget Area Manager
 //	TODO - further research required; sidebars area not display in Editor menu
